@@ -121,7 +121,8 @@ header nav a {
 
 /* header image */
 .jumbo-img {
-  margin-left: -10px;
+  margin-left: 0px;
+  justify-content: flex-start;
 }
 
 /* top-content */
@@ -133,11 +134,46 @@ header nav a {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.top-content .single-container {
+    width: 98%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.top-content .double-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/*
+Service Grid Layout
+*/
+.grid-layout {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -8px;
+  width: 700px;
+  /* */
+  margin: 40px auto 0 auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+  /* */
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.flex-cell {
+  min-height: 150px;
+  max-width: 300px;
+  padding: 20px;
+  margin: 20px 15px;
+  /* gray bg */
+  border: 0.15px solid black;
+  background-color: var(--cell-bg);
+}
+
+/* middle content */
 
 .middle-content {
     margin-bottom: 20px;
