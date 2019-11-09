@@ -254,6 +254,8 @@ Service Grid Layout
   margin-bottom: 12.5px;
 }
 
+/* grid buttons */
+
 .middle-content .service-grid .grid-cell .learn-more {
   background-color: var(--bg-color);
   border: 2.25px solid black;
@@ -262,6 +264,11 @@ Service Grid Layout
   padding: 7.5px 15px;
   margin-top: 12.5px;
   font-size: 1rem;
+}
+
+.middle-content .service-grid .grid-cell .learn-more:hover {
+  color: var(--bg-color);
+  background-color: black;
 }
 
 /* bottom */ 
@@ -283,13 +290,12 @@ Service Grid Layout
   width: 30%;
   padding: 0 1%;
   padding-bottom: 10px; 
+  padding-left: -10px;
 }
 
-/*
 .bottom-paragraph .single-container {
-  margin: -10px 0 20px 0;
+  margin: 0px 0 25px 0;
 }
-*/
 
 /* footer */
 
